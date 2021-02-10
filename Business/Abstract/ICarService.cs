@@ -8,6 +8,9 @@ namespace Business.Abstract
     public interface ICarService
     {
         List<Car> GetAll();
+        void Add(Car entity);
+        void Update(Car entity);
+        void Delete(Car entity);
 
     }
 }
